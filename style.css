@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(90deg, rgb(255, 255, 255),rgb(47, 47, 47));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow-y: hidden;
+}
+#form{
+    text-align: center;
+    background-color: rgb(219, 219, 219);
+    padding: 30px;
+    border-radius: 5px;
+}
+#form>h1{
+    font-family: monospace;
+    letter-spacing: 2px;
+}
+label{
+    font-family: monospace;
+    font-size: 1.2rem;
+    color: #707070;
+}
+button{
+    padding: 5px 30px;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 100;
+    transition: .33s;
+}
+input{
+    padding: 5px 25px;
+    margin: .2rem 0;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #515050;
+    outline: none;
+    font-size: 1.4rem;
+    color: #232121;
+}
+button:hover{
+    background:rgb(158, 157, 157);
+    color: #fefefe;
+}
