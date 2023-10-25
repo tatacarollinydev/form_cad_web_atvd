@@ -1,53 +1,86 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
+    <title>Crie sua conta gratuitamente</title>
 
     <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
     <form id="form">
-        <h1>Cadastro</h1>
         <div>
-            <label for="email">Email</label>
-            <input placeholder="Digite seu email:" type="email" id="email">
+            <div>
+                <table>
+                    <h1 class="title">Cadastro</h1>
+                    <tr>
+                        <td class="firsttd"><label for="email">Email</label></td>
+                        <td><input placeholder="Digite seu email:" type="email" id="email"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="firsttd"><label for="nome">Nome</label></td>
+                        <td><input placeholder="Digite seu nome:" type="text" id="nome"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="firsttd"><label for="Data">Data de Nascimento</label></td>
+                        <td><input type="date" id="Data"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="firsttd"><label for="CPF">CPF</label></td>
+                        <td><input placeholder="Digite seu CPF:" type="number" id="CPF"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="firsttd"><label for="cidade">CEP</label></td>
+                        <td><input placeholder="Digite seu cep:" type="text" id="cep"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="firsttd"><label for="cidade">Cidade</label></td>
+                        <td><input placeholder="Digite sua cidade:" type="text" id="cidade" disabled></td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="firsttd"><label for="rua">Rua</label></td>
+                        <td><input  type="text" id="rua" disabled placeholder="Logradouro"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="firsttd"><label for="rua">Estado</label></td>
+                        <td><input  type="text" id="estado" disabled placeholder="UF"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="firsttd"><label for="numero">Número</label></td>
+                        <td><input type="number" id="numero" placeholder="Número, andar, etc..."></td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="firsttd"><label for="complemento">Complemento(opcional)</label></td>
+                        <td><input type="text" id="complemento" placeholder="Portão, casa, porta, etc..."></td>
+                    </tr>
+                
+                    <tr>
+                        <td class="firsttd"><label for="Senha">Senha</label></td>
+                        <td><input type="password" id="Senha" placeholder="Digite sua Senha"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="firsttd"><label for="repetir">Repetir senha</label></td>
+                        <td><input type="password" id="repetir" placeholder="Repita sua Senha"></td>
+                    </tr>
+                    
+                    </table>            
+                </div>
             <br>
-            <label for="nome">Nome</label>
-            <input placeholder="Digite seu nome:" type="text" id="nome">
-            <br>
-            <label for="tell">Telefone</label>
-            <input placeholder="Digite seu telefone:" type="tel" id="tell">
-            <br>
-            <label for="Data">Data de Nascimento</label>
-            <input type="date" id="Data">
-            <br>
-            <label for="CPF">CPF</label>
-            <input placeholder="Digite seu CPF:" type="number" id="CPF">
-            <br>
-            <label for="cidade">Cidade</label>
-            <input placeholder="Digite sua cidade:" type="text" id="cidade">
-            <br>
-            <label for="rua">Rua</label>
-            <input  type="text" id="rua">
-            <br>
-            <label for="numero">Número</label>
-            <input type="number" id="numero">
-            <br>
-            <label for="complemento">Complemento(opcional)</label>
-            <input type="text" id="complemento">
-            <br>
-            <label for="Senha">Senha</label>
-            <input type="password" id="Senha">
-            <br>
-            <label for="repetir">Repetir senha</label>
-            <input type="password" id="repetir">
+            <button onclick="valida()" type="button">Cadastrar</button>
         </div>
-        <br>
-        <button onclick="valida()" type="button">Cadastrar</button>
     </form>
 
     <script src="script.js"></script>

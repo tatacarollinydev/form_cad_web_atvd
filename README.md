@@ -10,6 +10,13 @@
 - CSS
 - JavaScript
 
+#
+
+**E-comerces de inspirações:**
+- Shopee
+- Americanas
+- Zara
+
 # 
 
 # ***Cadastro inicial***
