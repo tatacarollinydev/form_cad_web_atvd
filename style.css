@@ -81,3 +81,8 @@ input{
 #Data {
     width: 83%;
 }
+
+.disabled {
+    background: rgb(243, 243, 243);
+    cursor: no-drop;
+}
