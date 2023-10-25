@@ -21,20 +21,10 @@
 
 # ***Cadastro inicial***
 
-![App ScreenShot](https://raw.githubusercontent.com/tatacarollinydev/images-readme/main/Captura%20de%20tela%202023-08-24%20094346.png)
+![App ScreenShot](https://raw.githubusercontent.com/tatacarollinydev/images-readme/main/Captura%20de%20tela%202023-10-25%20100906.png)
+
 #
 
-# ***Cadastro Preenchido***
-![App ScreenShot](https://raw.githubusercontent.com/tatacarollinydev/images-readme/main/Captura%20de%20tela%202023-08-24%20094709.png)
-#
+# ***Auto Preenchimento de CEP***
 
-# ***Erro de preenchimento❌***
-![App ScreenShot](https://raw.githubusercontent.com/tatacarollinydev/images-readme/main/Captura%20de%20tela%202023-08-24%20094813.png)
-
-
-
-
-
-
-
-
+![App ScreenShot](https://raw.githubusercontent.com/tatacarollinydev/images-readme/main/Captura%20de%20tela%202023-10-25%20101116.png)
